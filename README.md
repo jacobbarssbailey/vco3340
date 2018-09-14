@@ -1,7 +1,7 @@
 # VCO3340
-This project provides tested plans for a 6HP Eurorack-format CEM3340 [CoolAudio 3340] VCO synthesizer module. The 3340 VCO chip provides excellent .
+This project provides tested plans for a 6HP Eurorack-format CEM3340 [CoolAudio 3340] VCO synthesizer module.
 
-![GitHub Logo](/media/vco3340-assembled.jpg)
+![Assembled module](/media/vco3340-assembled.jpg)
 
 ### Inputs
 - V/OCT: Exponential (1V per octave) pitch input
