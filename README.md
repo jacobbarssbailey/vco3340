@@ -1,6 +1,7 @@
 # VCO3340
 This project provides tested plans for a 6HP Eurorack-format CEM3340 [CoolAudio 3340] VCO synthesizer module. The 3340 VCO chip provides excellent .
 
+![GitHub Logo](/media/vco3340-assembled.jpg)
 
 ### Inputs
 - V/OCT: Exponential (1V per octave) pitch input
@@ -24,7 +25,6 @@ Qty | Value            | Device                  | Package             | Parts  
 1   | M08X2            | 2.54mm header           | Pin                 | EXPANSION                                            |
 3   |                  | 2.54mm                  | Jumper              |                                                      |
 1   | M05x2            | 2.54mm header           | Shrouded            | POWER                                                |
---- | ---------------- | ----------------------- | ------------------- | ---------------------------------------------------- |
 2   | 100Ω             | Resistor                | 0805                | R1, R22                                              |
 1   | 390Ω             | Resistor                | 0805                | R36                                                  |
 2   | 470Ω             | Resistor                | 0805                | R9, R19                                              |
@@ -41,19 +41,16 @@ Qty | Value            | Device                  | Package             | Parts  
 1   | 150KΩ            | Resistor                | 0805                | R6                                                   |
 3   | 1MΩ              | Resistor                | 0805                | R7, R11, R13                                         |
 1   | 1.5MΩ            | Resistor                | 0805                | R8                                                   |
---- | ---------------- | ----------------------- | ------------------- | ---------------------------------------------------- |
 2   | 1.0nF            | Capacitor               | 0805                | C1, C2                                               |
 1   | 1.25nF           | Capacitor (CG0)         | 0805                | C6                                                   |
 2   | 10nF             | Capacitor               | 0805                | C4, C5                                               |
 11  | 100nF            | Capacitor               | 0805                | C3, C10, C11, C12, C13, C14, C15, C18, C19, C21, C22 |
 2   | 1µF              | Capacitor               | 0805                | C8, C9                                               |
 4   | 47µF             | Capacitor (Pol)         | PANASONIC_C         | C16, C17, C20, C23                                   |
---- | ---------------- | ----------------------- | ------------------- | ---------------------------------------------------- |
 1   | 10KΩ             | Trimpot                 | 2.54mm Multiturn    | SCALE                                                |
 1   | 20KΩ             | Trimpot                 | 2.54mm Multiturn    | HIGHFREQ                                             |
 1   | 50KΩ             | Trimpot                 | 2.54mm Multiturn    | SYMMETRY                                             |
 1   | 100KΩ            | Trimpot                 | 2.54mm Multiturn    | DRIVE                                                |
---- | ---------------- | ----------------------- | ------------------- | ---------------------------------------------------- |
 2   |                  | DIODE                   | SOD-123             | D4, D5                                               |
 3   |                  | DIODE                   | SOD-323             | D1, D2, D3                                           |
 2   | 3904             | Transistor (NPN)        | SOT23               | Q1, Q2                                               |
