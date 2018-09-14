@@ -11171,14 +11171,14 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="R25" library="barsstronics" deviceset="RESISTOR" device="0805" value="3K6"/>
 <part name="P-3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="-5V" device=""/>
 <part name="P-2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="-5V" device=""/>
-<part name="R24" library="barsstronics" deviceset="RESISTOR" device="0805" value="10K"/>
-<part name="R14" library="barsstronics" deviceset="RESISTOR" device="0805" value="100K"/>
+<part name="R24" library="barsstronics" deviceset="RESISTOR" device="0805" value="100K"/>
+<part name="R14" library="barsstronics" deviceset="RESISTOR" device="0805" value="200K"/>
 <part name="P-4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="-5V" device=""/>
 <part name="R22" library="barsstronics" deviceset="RESISTOR" device="0805" value="100R"/>
 <part name="HIGHFREQ" library="barsstronics" deviceset="POT" device="TRIM-MULTITURN-VERT" value="20K"/>
 <part name="SCALE" library="barsstronics" deviceset="POT" device="TRIM-MULTITURN-VERT" value="10K"/>
 <part name="R10" library="barsstronics" deviceset="RESISTOR" device="0805" value="10K"/>
-<part name="R27" library="barsstronics" deviceset="RESISTOR" device="0805" value="100K"/>
+<part name="R27" library="barsstronics" deviceset="RESISTOR" device="0805" value="10K"/>
 <part name="R26" library="barsstronics" deviceset="RESISTOR" device="0805" value="200K"/>
 <part name="R13" library="barsstronics" deviceset="RESISTOR" device="0805" value="1M"/>
 <part name="D3" library="barsstronics" deviceset="DIODE" device="SOD-323" value="D"/>
@@ -11192,7 +11192,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="R1" library="barsstronics" deviceset="RESISTOR" device="0805" value="100R"/>
 <part name="R4" library="barsstronics" deviceset="RESISTOR" device="0805" value="100K"/>
-<part name="R6" library="barsstronics" deviceset="RESISTOR" device="0805" value="100K"/>
+<part name="R6" library="barsstronics" deviceset="RESISTOR" device="0805" value="150K"/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="IC1" library="barsstronics" deviceset="OPAMP-SINGLE" device="" value="TL071"/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -11237,7 +11237,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="R29" library="barsstronics" deviceset="RESISTOR" device="0805" value="80K"/>
 <part name="R30" library="barsstronics" deviceset="RESISTOR" device="0805" value="100K"/>
 <part name="R31" library="barsstronics" deviceset="RESISTOR" device="0805" value="200K"/>
-<part name="R32" library="barsstronics" deviceset="RESISTOR" device="0805" value="10K"/>
+<part name="R32" library="barsstronics" deviceset="RESISTOR" device="0805" value="1K"/>
 <part name="IC4" library="barsstronics" deviceset="OPAMP-DUAL" device="" value="TL072"/>
 <part name="C12" library="barsstronics" deviceset="CAPACITOR" device="0805" value="100n"/>
 <part name="C13" library="barsstronics" deviceset="CAPACITOR" device="0805" value="100n"/>
@@ -11257,7 +11257,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="R39" library="barsstronics" deviceset="RESISTOR" device="0805" value="10K"/>
 <part name="R40" library="barsstronics" deviceset="RESISTOR" device="0805" value="2K2"/>
 <part name="R34" library="barsstronics" deviceset="RESISTOR" device="0805" value="2K2"/>
-<part name="DRIVE" library="barsstronics" deviceset="POT" device="TRIM-MULTITURN-VERT" value="10K"/>
+<part name="DRIVE" library="barsstronics" deviceset="POT" device="TRIM-MULTITURN-VERT" value="100K"/>
 <part name="SYMMETRY" library="barsstronics" deviceset="POT" device="TRIM-MULTITURN-VERT" value="50K"/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -11839,7 +11839,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <sheet>
 <description>WAVESHAPING</description>
 <plain>
-<text x="182.88" y="78.74" size="1.778" layer="91">CHECK VALUER</text>
 </plain>
 <instances>
 <instance part="C8" gate="G$1" x="22.86" y="129.54" rot="R90"/>
