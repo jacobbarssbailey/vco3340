@@ -64,7 +64,7 @@ Qty | Value            | Device                  | Package             | Parts  
 
 ## Notes on assembly:
 1. The rear expansion header is not optional; the V/Oct, Pulse Width, and Soft Sync inputs *must* be connected to ground for proper operation
-1. Non-shrounded headers may be used for the Power connector, but this makes it easier to invert the cable polarity, with potentially unpleasant results.
+1. Non-shrouded headers may be used for the Power connector, but this makes it easier to invert the cable polarity, with potentially unpleasant results.
 
 
 ## First time setup
