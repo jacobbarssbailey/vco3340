@@ -6,8 +6,8 @@ This project provides tested plans for a 6HP Eurorack-format CEM3340 [CoolAudio 
 ### Inputs
 - V/OCT: Exponential (1V per octave) pitch input
 - Lin FM: Linear frequency modulation
-- Sync: Hard sync oscillator to external signal. Requires audio-rate signal at approx. ±5V.
-- Width: Set duty cycle of pulse output from 0-100% with ±2.5V signal. Normally 0V, i.e square wave] output
+- Sync: Hard sync oscillator to external signal; requires audio-rate signal at approx. ±5V.
+- Width: Set duty cycle of pulse output from 0-100% with ±2.5V signal; normalled to 0V, i.e. square wave output
 
 
 ### Outputs
